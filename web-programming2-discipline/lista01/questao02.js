@@ -1,6 +1,6 @@
-var h = 4
+var h = 0
 var p = 14
-var f = 7
+var f = 15
 var d = -1
 var cont=0
 
