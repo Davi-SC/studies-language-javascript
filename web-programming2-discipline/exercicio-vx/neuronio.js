@@ -15,3 +15,5 @@ function treinamento(n){
     }
     return W
 }
+
+export default calcula_neuronio
