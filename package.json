@@ -1,7 +1,7 @@
 {
   "name": "studies-language-javascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repositorio para armazenar aulas de javascript",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Davi-SC/studies-language-javascript/issues"
   },
-  "homepage": "https://github.com/Davi-SC/studies-language-javascript#readme"
+  "homepage": "https://github.com/Davi-SC/studies-language-javascript#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }

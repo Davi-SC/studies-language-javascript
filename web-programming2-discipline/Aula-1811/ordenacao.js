@@ -1,5 +1,6 @@
 function bolha(vetor){
-    console.log("Ordenação em bolha")
+    console.log("ordenando vetor")
+    
 }
 
 function selecao(vetor){

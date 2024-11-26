@@ -29,4 +29,6 @@ function selectionSort(vetor) {
   return vetor;
 }
 
+
+
 export default { bubbleSort, selectionSort };
