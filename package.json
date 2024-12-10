@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Davi-SC/studies-language-javascript#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
   }
 }
