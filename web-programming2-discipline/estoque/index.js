@@ -15,14 +15,18 @@ app.use(express.static(path.join(__dirname,'public')))
 
 //precisa instalar o handlebars npm install express-handlebars ou npm install handlebars    e   npm install allowInsecurePrototypeAccess
 //Configuração da visao
-app.engine('/handlebars', handlebars.engine({
-    defaultLayout: 'main',
+app.engine('handlebars', handlebars.engine({
+    defaultLayout: 'principal',
     handlebars: allowInsecurePrototypeAccess(Handlebars)
 }))
 app.set('view engine', 'handlebars')
 
 app.get('/',function(req,res){
-    res.send('Bem vindo ao estoque')
+    res.render('admin/index')
+})
+app.get('/',function(req,res){
+    res.render('admin/contato')
 })
 
-app.listen(3000,()=>'Servidor rodando em http://localhost:3000')
+
+app.listen(3000,()=>console.log('Servidor rodando em http://localhost:3000'))
